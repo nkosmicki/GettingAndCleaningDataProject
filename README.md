@@ -19,6 +19,6 @@ Here are the data for the project:
 
 All data is downloaded and unzipped in the working directory. Attached is `codebook.md` which describes the variables, data, and alterations made to the data to adhere to the Tidy Data principles.
 
-`run_analysis.R` is included which can be run in RStudio to replicate the steps outlined in the course project to achieve the same output data set. The final output text file with all the data averaged is called 'averagedData.txt' and has been uploaded to this repository as well.
+`run_analysis.R` is included which can be run in RStudio to replicate the steps outlined in the course project to achieve the same output data set. The final output text file with all the data averaged is called `averagedData.txt` and has been uploaded to this repository as well.
 
 
