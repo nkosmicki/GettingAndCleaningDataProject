@@ -32,8 +32,8 @@ set with the average of each variable for each activity and each subject.
 
 # Variables
 
-* xTest, xTrain, subjectTest, subjectTrain, yTest, yTrain, activities, and features are variables used to store data from the downloaded file.
-* All merges are completed using rbind. 'xTest' and 'xTrain' are merged into 'xMerge', 'yTest' and 'yTrain' and merged into 'yMerge', 'subjectTest' and 'subjectTrain' are merged into 'subjectMerge'.
-* 'finalDataTable' contains all the cleaned results of 'xMerge', 'yMerge', and 'subjectMerge' combined via cbind.
-* The averages are calculated and stored in 'averagedData'.
-* The final file is written out as 'averagedData.txt'.
+* `xTest`, `xTrain`, `subjectTest`, `subjectTrain`, `yTest`, `yTrain`, `activities`, and `features` are variables used to store data from the downloaded file.
+* All merges are completed using `rbind`. `xTest` and `xTrain` are merged into `xMerge`, `yTest` and `yTrain` and merged into `yMerge`, `subjectTest` and `subjectTrain` are merged into `subjectMerge`.
+* `finalDataTable` contains all the cleaned results of `xMerge`, `yMerge`, and `subjectMerge` combined via `cbind`.
+* The averages are calculated and stored in `averagedData`.
+* The final file is written out as `averagedData.txt`.
